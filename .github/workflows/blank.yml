@@ -27,8 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: java public class Main {
-    public static void main(String[] args) {
-        System.out.println("This will be printed");
-    }
-}
+        run: java public class Main {public static void main(String[] args) {System.out.println("This will be printed");}}
